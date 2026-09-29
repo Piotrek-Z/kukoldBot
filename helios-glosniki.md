@@ -1,6 +1,6 @@
 # Helios: sterowanie głośnikami (komputer pokładowy)
 
-**Sprzęt:** Jetson AGX Orin, Ubuntu. Głośniki to karta USB **card 3: `HK USB REF`** (nazwa ALSA: `REF`). Karty 0 (HDMI) i 1 (APE) to wyjścia wewnętrzne Jetsona, nie głośniki.
+**Sprzęt:** Jetson AGX Orin, Ubuntu. Głośniki to karta USB **card 3: `HK USB REF`** (nazwa ALSA: `REF`). Karty 0 (HDMI) i 1 (APE) to wyjścia wewnętrzne Jetsona, nie głośniki. Jest już ustawiony na deafultowy
 
 ## Co działa
 

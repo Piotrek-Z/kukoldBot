@@ -1,0 +1,6 @@
+połączyć się poprzez ssh z robotem:
+sudo nmcli dev wifi connect "Moje_Wifi" password "Moje_Hasło" #NIE MOŻE BYĆ ! i # w haśle
+
+przydatne komendy:
+ip a
+nmcli device show

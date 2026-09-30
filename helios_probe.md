@@ -4,10 +4,13 @@ Węzeł ROS 2 do odczytu stanu ramion humanoida Rokae Helios przez xCore SDK (C+
 
 # kompilacja:
 cd ~/rokae_ws
+
 colcon build --packages-select helios_probe --cmake-clean-cache --cmake-args \
   -DXCORE_SDK_DIR=/home/std/rokae_ws/src/rokae_ros2-main/rokae_hardware/sdk \
   -DHELIOS_DOF=7
+  
 source install/setup.zsh
+
 ros2 run helios_probe helios_probe --ros-args -p robot_ip:=192.168.71.160
 
 ## Stan końcowy

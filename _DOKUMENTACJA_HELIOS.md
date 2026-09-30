@@ -120,3 +120,6 @@ Od tego momentu masz bezpośredni dostęp do ramion, torsu, ROS-a i pełnego int
 * **Kody błędów i diagnostyka:** [https://docs.rokae.com/docs/xCore/故障排查](https://docs.rokae.com/docs/xCore/%E6%95%85%E9%9A%9C%E6%8E%92%E6%9F%A5)
 * **Centrum pobierania oprogramowania:** [https://docs.rokae.com/docs/DownLoad](https://docs.rokae.com/docs/DownLoad)
 * **Karta techniczna robota Helios:** [https://www.rokae.com/en/product/show/596/Wheeled-Dual-Arm-Robot-Helios.html](https://www.rokae.com/en/product/show/596/Wheeled-Dual-Arm-Robot-Helios.html)
+
+
+8. Jak wyskakuje błąd RCI czyli przez program np C++ limit jakiś osiągniemy to w Robot Assist > Communication > RCI Settings i wyłączasz to

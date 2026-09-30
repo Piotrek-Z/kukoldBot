@@ -1,0 +1,1 @@
+**Aby włączyć robota trzeba podłączyć go do prądu i poczekać aż piknie dwa razy, potem #KLIKNĄĆ# przycisk na plecach #RAZ# i poczekać aż się sprauje**

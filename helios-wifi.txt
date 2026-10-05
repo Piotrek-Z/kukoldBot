@@ -4,3 +4,6 @@ sudo nmcli dev wifi connect "Moje_Wifi" password 'HASŁO' #W HAŚLE MUSZĄ BYĆ 
 przydatne komendy:
 ip a
 nmcli device show
+
+
+192.168.49.97/24 - ip w sieci JM-TRONIK_5G

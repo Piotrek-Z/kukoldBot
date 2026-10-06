@@ -1,5 +1,5 @@
 połączyć się poprzez ssh z robotem:
-sudo nmcli dev wifi connect "Moje_Wifi" password 'HASŁO' #W HAŚLE MUSZĄ BYĆ POJEDYNCZE CUDZYSŁOWY!!!!
+sudo nmcli dev wifi connect "Moje_Wifi" password 'HASŁO' #W HAŚLE MUSZĄ BYĆ POJEDYNCZE CUDZYSŁOWY!!!! -- poprawka. Piotrek odkrył, że jak da się w pojedynczym cudzysłowie to hasztagi i inne znaki specjalne są tak jakby ok, ale podwójny cudzysłów to tu jest problem ^_____^
 
 przydatne komendy:
 ip a

@@ -1,4 +1,4 @@
-# Dokumentacja Techniczna i Rozwiązywanie Problemów: Rokae Helios (RobotAssist / Sieć / ROS)
+# Dokumentacja Techniczna i Rozwiązywanie Problemów: Rokae Helios (RobotAssist / Sieć / ROS) TO FAKE JEST NIEPOPRAWNE NAPRAW KTOS TA DOKUMENTACJE
 
 Zwięzły przewodnik konfiguracji, procedur bezpieczeństwa oraz rozwiązywania typowych problemów na robocie dwuramiennym **Rokae Helios** (kontroler xCore, tors 4-osiowy `TaiHu`, ramiona 7-osiowe xMate, komputer nadrzędny NVIDIA Jetson).
 
@@ -7,7 +7,7 @@ Zwięzły przewodnik konfiguracji, procedur bezpieczeństwa oraz rozwiązywania 
 ## 1. Architektura Systemu i Sterowanie Wieloma Elementami
 
 Robot składa się z niezależnych kontrolerów połączonych siecią Ethernet:
-* **Tors (`TaiHu`):** 4 osie (J1–J4), IP: `192.168.71.254`
+* **Tors (`TaiHu`):** 4 osie (J1–J4), IP: `192.168.71.254` 
 * **Prawe ramię:** 7 osi (J1–J7), IP: `192.168.71.50`
 * **Lewe ramię:** 7 osi (J1–J7), IP: `192.168.71.51`
 * **Komputer pokładowy (Jetson / ROS 2):** IP zewnętrzne Wi-Fi (np. `10.111.169.242`) oraz IP wewnętrzne `192.168.71.1`.

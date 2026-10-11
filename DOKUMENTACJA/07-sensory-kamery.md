@@ -30,6 +30,9 @@ Kompletny podręcznik uruchomienia kamery głębi **Orbbec Gemini 335L** oraz do
 
 ---
 
+> ⚠️ **WAŻNE:**  
+> Jeśli tylko uruchamiamy kamerę nie musimy instalować pakietów, punkt 2.1, 2.2 możemy pominąć 
+
 ## 1. Architektura Wizyjna Robota Helios
 
 Wszystkie sensory wizyjne w robocie Helios są podłączone bezpośrednio do komputera pokładowego **NVIDIA Jetson** (`10.111.169.242`):
@@ -45,7 +48,7 @@ Wszystkie sensory wizyjne w robocie Helios są podłączone bezpośrednio do kom
 
 ## 2. Instalacja Wymaganych Pakietów i Konfiguracja Uprawnień
 
-Wszystkie poniższe komendy wykonaj na Jetsonie (`std@10.111.169.242`):
+Wszystkie poniższe komendy wykonaj na Jetsonie (`std@192.168.49.97`):
 
 ### 2.1 Instalacja pakietów ROS 2
 
@@ -85,7 +88,7 @@ ros2 run orbbec_camera list_devices_node
 ## 3. Uruchomienie Kamery Głównej Orbbec Gemini 335L (Procedura Dwóch Terminali)
 
 > ⚠️ **ZASADA DZIAŁANIA:**  
-> Do przesyłania obrazu na komputer potrzebujesz **dwóch niezależnych okien terminala PuTTY** działających jednocześnie.  
+> Do przesyłania obrazu na komputer potrzebujesz **dwóch niezależnych okien terminala** działających jednocześnie.  
 > **Nie wolno wciskać `Ctrl+C` w pierwszym oknie**, ponieważ wyłącza to fizyczne zasilanie matrycy kamery i serwer wideo nie będzie miał czego nadawać!
 
 ---

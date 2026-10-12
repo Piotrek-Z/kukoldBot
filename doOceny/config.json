@@ -1,0 +1,40 @@
+{
+  "network": {
+    "robot_ip": "192.168.49.97",
+    "robot_port": 9090,
+    "topic_teleop": "/teleop/joint_commands",
+    "send_interval_ms": 40
+  },
+  "camera": {
+    "source": "http://192.168.49.97:8080/stream?topic=/camera/color/image_raw",
+    "width": 640,
+    "height": 480
+  },
+  "ai_tracking": {
+    "model_path": "yolov8n-pose.onnx",
+    "confidence_threshold": 0.45,
+    "keypoint_threshold": 0.50,
+    "primary_operator_lock": true
+  },
+  "filtering_one_euro": {
+    "enabled": true,
+    "deadband_deg": 0.8,
+    "reach_yaw": {
+      "min_cutoff": 0.7,
+      "beta": 0.004
+    },
+    "shoulder_pitch": {
+      "min_cutoff": 1.0,
+      "beta": 0.007
+    },
+    "elbow_flexion": {
+      "min_cutoff": 1.2,
+      "beta": 0.008
+    }
+  },
+    "control_mode": {
+    "mode": "cartesian_ik",
+    "reach_sensitivity": 1.0,
+    "elbow_sensitivity": 1.0
+  }
+}

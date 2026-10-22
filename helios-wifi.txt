@@ -7,3 +7,15 @@ nmcli device show
 
 
 192.168.49.97/24 - ip w sieci JM-TRONIK_5G
+
+
+Procedura łączenia Heliosa z Internetem.
+
+1. Łączysz się do jego sieci (Oasis-ls-012)
+2. Włączasz aplikację Qt
+3. Wchodzisz w guzik po prawej "WI-FI ROBOTA"
+4. Wpisujesz nazwę i hasło do swojego hotspota i kliknij połącz
+5. Kopiujesz adres jaki Ci wypluje w okienku
+5. Wyłączasz aplikację
+6. Łączysz się ze swoim hotspotem
+7. Otwierasz aplikację i wpisujesz nowy adres w okienko

@@ -1,0 +1,26 @@
+KOMENDY DOSTĘPNE NA HELIOSIE (po wklejeniu do czatu od razu się wykonują, a ai nie widzie tego jako wiadomość:
+
+    #posStart# - idz na pozycję startową rękami (taka swobodna)
+    #posZero:left# - wraca do pozycji zerowej lewej ręki
+    #posZero:right# - wraca do pozycji zerowej prawej ręki
+    #posZero:both# - wraca do pozycji zerowej obu ramion
+    #posZero:torso# - wraca do pozycji zerowej tułowia
+    #posZero:all# - wraca do pozycji zerowej wszystkich jointów
+
+    #dragOn:left# - włącz tryb drag dla lewej ręki
+    #dragOn:right# - włącz tryb drag dla prawej ręki
+    #dragOn:both# - włącz tryb drag dla obu rąk
+    #dragOff# - wyłącza draga
+	
+    #stats# - pokazuje statystyki 
+    #volume:PROCENTY# - ustawia głośność od 0 do 80
+    #idleOff# - wyłącza tryb idle (czyli ruchy które robot robi, gdy nie ma nic innego do roboty)
+    #idleOn# - włącza tryb idle 
+    #idleToggle# - jeżeli idle włączony to wyłączy, a jeżeli wyłączony to włączy
+    #youtube:NAZWA_AUTORA TYTUŁ# - do puszczania filmów lub muzyki z yt, tylko dźwięk
+
+    #wave# - pomachaj 
+    #bokser# - włącza sekwencje bokserską
+    #lookAround# - Helios się rozgląda
+    #swing# - Helios buja lekko rękami
+    #polonez# - Helios tańczy poloneza, nie włączać niedziała
